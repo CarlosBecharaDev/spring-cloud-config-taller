@@ -2,11 +2,6 @@
 
 > Taller de configuracion centralizada para microservicios usando Spring Cloud
 
-[![Java](https://img.shields.io/badge/Java-21-red?style=flat&logo=openjdk)](https://www.oracle.com/java/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-green?style=flat&logo=springboot)](https://spring.io/projects/spring-boot)
-[![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-2023.0.1-blue?style=flat&logo=spring)](https://spring.io/projects/spring-cloud)
-[![Maven](https://img.shields.io/badge/Maven-3.9.16-orange?style=flat&logo=apachemaven)](https://maven.apache.org/)
-
 ---
 
 ## Descripcion
@@ -133,13 +128,6 @@ mvn spring-boot:run "-Dspring-boot.run.arguments=--spring.profiles.active=uat"
 | Client | dev | `GET http://localhost:8081/mensaje` | 8081 |
 | Client | uat | `GET http://localhost:8082/mensaje` | 8082 |
 
-### Prueba automatizada con Postman Runner
-
-1. Importar `Postman_Collection.json` en Postman
-2. Importar `Postman_Environment.json` como Environment
-3. Abrir **Runner** → Seleccionar coleccion → **Run**
-4. Resultado esperado: **18 pruebas en verde, 0 errores**
-
 ---
 
 ## Respuestas Esperadas
@@ -162,13 +150,3 @@ mvn spring-boot:run "-Dspring-boot.run.arguments=--spring.profiles.active=uat"
 | Spring Cloud Config Client | 4.1.1 | Cliente de configuracion |
 | Maven | 3.9.16 | Gestor de dependencias |
 | Apache Tomcat | 10.1.20 | Servidor web embebido |
-
----
-
-## Licencia
-
-Este proyecto es para fines academicos del taller de Electiva I.
-
----
-
-**Desarrollado por:** [CarlosBecharaDev](https://github.com/CarlosBecharaDev)
